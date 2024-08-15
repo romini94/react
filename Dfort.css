@@ -1,0 +1,91 @@
+.nav-link{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 900px;
+}
+.secondpage{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    top:20px
+}
+.item{
+   position: relative;
+   left:360px;
+   top:50px
+}
+.story{
+    position: relative;
+    top:50px;
+    
+    left: 480px;
+    font-family: "Playwrite ES Deco", cursive;
+}
+.storyimg{
+    position: relative;
+    top:150px;
+    left:150px;
+}
+.storyright{
+    position: relative;
+    top:150px;
+    
+    font-family: "Playwrite ES Deco", cursive;
+  
+}
+.main{
+    background-color: rgb(194, 193, 196);
+    overflow-x: hidden;
+
+}
+.navbar{
+position:fixed;
+width:100%}
+.rooms{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+     text-align: center;}
+     .list{
+        list-style-type:circle;
+     }
+
+     
+
+.roomie {
+  font-family: "Matemasie, sans-serif"
+}
+.events{
+    
+    font-family: "Matemasie, sans-serif"
+        
+        
+      }
+      
+   .ayurveda{
+    position: relative;
+    bottom: 400px;
+    color:rgb(226, 233, 238);
+    
+   } 
+   .img{opacity: 0.75;}
+   .welbutton{
+    position: relative;
+    top:20px;
+   }
+    .frontimg{
+        position: relative;
+        bottom: 540px;
+    
+    }
+        
+      
+       
+
+
+
+    
+
+
