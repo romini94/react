@@ -6,7 +6,8 @@
     color: beige;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    bottom: 900px;
+    bottom: 250px;
+    margin-left:15px;
 }
 .secondpage{
     font-family: 'Times New Roman', Times, serif;
@@ -39,9 +40,9 @@
   
 }
 .main{
-    background-color: rgb(194, 193, 196);
-    overflow-x: hidden;
-
+    background-color: rgb(137, 136, 138);
+   
+;
 }
 .navbar{
 position:fixed;
@@ -77,10 +78,13 @@ width:100%}
    }
     .frontimg{
         position: relative;
-        bottom: 540px;
+        top: 60px;
     
     }
-        
+     .footer{
+        position: relative;
+        top:100px;
+     }   
       
        
 

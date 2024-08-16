@@ -5,7 +5,14 @@ import './Dfort.css'
 import { Carousel } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Col from 'react-bootstrap/Col';import { CiLocationOn } from "react-icons/ci";
+import { MdLocalPostOffice } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaYoutubeSquare } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
+
 
 import D from '../IMAGES/D.webp';
 import first from '../IMAGES/first.jpg'
@@ -17,6 +24,7 @@ import bed from '../IMAGES/bed.jpg'
 import flower from '../IMAGES/flower.jpeg';
 import drinking from '../IMAGES/drinking.webp';
 import ayurveda from '../IMAGES/ayurveda.jpg'
+import DFORT_LOGO from '../IMAGES/DFORT_LOGO-1.png';
 
 function Firstpage() {
 
@@ -28,12 +36,13 @@ function Firstpage() {
 
 
   return (
-    <div className=' main container-fluid' style={{width:""}}>
+    <div className='main container-fluid'>
+    <div className=' ' >
 
-      <div style={{ height: '100vh' }} >
+      
         <nav className="navbar bg-body-tertiary ">
-          <div className="container">
-            <img src={D} width="50" height="50"></img>
+          
+            <img src={D} width="50px" height="50px"></img>
             <a className="navbar-brand" href="#">
 
             </a>
@@ -60,12 +69,12 @@ function Firstpage() {
                 <a className="nav-link header" href="#">BOOKS</a>
               </li>
             </ul>
-          </div>
+          
         </nav></div>
 
         
-        <div className>
-        <img src={first} className="frontimg" width="1400px" height="600px"/>
+        <div  >
+        <img src={first} className="frontimg" width="110%" height="600px"/>
           <h2 className='text'> Turn Moments into memories;</h2>
           <h2 className='text'> Authentic ayurveda with</h2>
           <h2 className='text'> premium hospitality</h2>
@@ -89,7 +98,7 @@ function Firstpage() {
 
             </Carousel.Item>
           </Carousel>
-        </div>
+        
       </div><br></br>
       <div style={{ height: "100vh" }} className=''>
         <h1></h1><br></br>
@@ -163,11 +172,63 @@ function Firstpage() {
 </Row>
 
 
+</div></div>
+<div style={{height:"100vh"}} className="footer">
+<Row>
+<Col>
+<img src={DFORT_LOGO } width=" 400px"></img>
+
+</Col>
+<Col>
+<h3>Contact Us</h3>
+<h6><CiLocationOn />near light house&breakwater thangassery,kollam,kerala</h6><br></br>
+<h6><MdLocalPostOffice /> reservation@thedfort.com</h6><br></br>
+<FaPhoneAlt />+91 4567676666
+
+</Col>
+<Col>
+<h3> Useful Links</h3>
+<h6>home</h6>
+<h6>aurvedha packages</h6>
+<h6>current promotions</h6>
+<h6> nearby destinations</h6>
+<h6>consult a doctor</h6>
+<h6> gallery</h6>
+<h6>our team</h6>
+<h6> career</h6>
+<h6>feedback</h6>
+</Col>
+<Col>
+<h3> Stay Connected</h3>
+<h6>news letter</h6>
+<h6>blogs</h6>
+<h3> Get in touch</h3><br></br>
+<div style={{display:"flex",gap:"10px"}}>
+<FaInstagram />  <FaFacebookSquare /><FaYoutubeSquare /><BsWhatsapp /></div>
+
+
+
+</Col>
+</Row>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
 </div>
 
 
             
-          </div>
+        
 
 
 
